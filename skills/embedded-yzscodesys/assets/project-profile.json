@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "project_name": "",
+  "project_root": "",
+  "output_dir": "",
+  "revision": "v1",
+  "mcu": {
+    "manufacturer": "", "part_number": "", "package": "", "family": "",
+    "vendor_region": "", "sdk_ecosystem": "", "verified": false
+  },
+  "documents": [
+    {"id": "datasheet", "path": "", "version": "", "sha256": "", "status": "pending"},
+    {"id": "schematic", "path": "", "version": "", "sha256": "", "status": "pending"}
+  ],
+  "toolchain": {
+    "ide": "", "version": "", "compiler": "", "compiler_version": "", "sdk": "",
+    "sdk_version": "", "optimization": "", "build_configuration": "",
+    "compatible": false, "compatibility_evidence": ""
+  },
+  "work": {
+    "kind": "", "original_source_path": "", "original_system": "", "system": "",
+    "source_roots": ["."], "exclude": [], "original_analysis": "", "original_analysis_sha256": "", "precompiled_libraries": []
+  },
+  "architecture": {
+    "summary": "", "modules": [], "tasks": [], "interrupts": [], "data_flows": [],
+    "ui": {
+      "enabled": false,
+      "screen": {"physical_size": "", "width_px": null, "height_px": null, "orientation": "", "color_format": "", "driver_chip": "", "interface": "", "touch": ""},
+      "resources": {"flash_total_bytes": null, "ram_total_bytes": null, "existing_flash_bytes": null, "existing_ram_bytes": null, "reserved_flash_bytes": null, "reserved_ram_bytes": null, "framebuffer_bytes": null, "font_cache_bytes": null, "image_decode_peak_bytes": null},
+      "assets": [], "style_count": 4, "selected_style": "", "pages": []
+    }
+  },
+  "pins": [],
+  "logic": [],
+  "diagrams": [],
+  "waveforms": [],
+  "approvals": [
+    {"stage": "A1", "status": "pending", "revision": "", "input_digest": "", "user_evidence": "", "user_evidence_sha256": ""},
+    {"stage": "A2", "status": "pending", "revision": "", "input_digest": "", "user_evidence": "", "user_evidence_sha256": ""},
+    {"stage": "A3", "status": "pending", "revision": "", "input_digest": "", "user_evidence": "", "user_evidence_sha256": ""},
+    {"stage": "A4", "status": "pending", "revision": "", "input_digest": "", "user_evidence": "", "user_evidence_sha256": ""},
+    {"stage": "A5", "status": "pending", "revision": "", "input_digest": "", "user_evidence": "", "user_evidence_sha256": ""}
+  ],
+  "review": {"inventory_path": "", "logic_pins_path": "", "rule_coverage_path": "", "ui_pages": []},
+  "build": {
+    "status": "pending", "exit_code": null, "error_count": null, "configuration": "", "optimization": "",
+    "input_digest": "", "log": "", "log_sha256": "", "artifact": "", "artifact_sha256": "",
+    "warnings_reviewed": false, "optimizer_reviewed": false, "production": false
+  },
+  "hardware": {
+    "target_identified": false, "connection_confirmed_by_user": false,
+    "flash_authorization": {"status": "pending", "input_digest": "", "artifact_sha256": "", "target_part": "", "target_board": "", "probe": "", "flash_regions": [], "user_evidence": "", "user_evidence_sha256": ""},
+    "probe": "", "target_part": "", "target_board": "", "flash_regions": [], "flash_result": "pending", "verify_result": "pending",
+    "debug_connection": {"channel": "", "port": "", "target_part": "", "target_board": ""},
+    "debug_log": "", "debug_log_sha256": ""
+  }
+}

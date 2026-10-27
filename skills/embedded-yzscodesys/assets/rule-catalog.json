@@ -1,0 +1,956 @@
+[
+  {
+    "id": "C01",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "先让代码本身清楚",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C02",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "注释准确、明确、无二义性",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C03",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "解释意图与约束",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C04",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "代码和说明同步维护",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C05",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "自有C/H有完整文件头",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C06",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "声明处说明调用契约",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C07",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "定义处说明实现要点",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C08",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "共享对象详细说明",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C09",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "注释靠近被解释代码",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C10",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "有意case贯穿必须说明",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C11",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "同一项目统一语言与样式",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "C12",
+    "document": "references/library/rules/embedded-comment-rules.md",
+    "description": "不在表达式中间插注释",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "E01",
+    "document": "references/library/rules/embedded-expression-rules.md",
+    "description": "结果不依赖未规定的求值次序",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "E02",
+    "document": "references/library/rules/embedded-expression-rules.md",
+    "description": "函数调用不作为另一个函数的实参",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "E03",
+    "document": "references/library/rules/embedded-expression-rules.md",
+    "description": "赋值不嵌入条件或调用实参",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "E04",
+    "document": "references/library/rules/embedded-expression-rules.md",
+    "description": "括号体现设计顺序",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF01",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "保持四层职责及实际依赖方向",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF02",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "自有函数使用层前缀；参数用Pascal与下划线结合，普通局部变量大驼峰；声明集中在函数开始",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF03",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "含中文的自有C/H统一UTF-8 BOM，严格解码，核对编辑器实际显示",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF04",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "自有可配置值集中维护；接口、协议、私有常量按归属存放",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF05",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "接口变更同步声明、定义、调用和说明",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF06",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "文件头和公共.h交代真实使用及移植契约，每个自有函数有必要详细说明",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF07",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "中断尽量减少函数跳转；SDK和固定契约符号保持原名",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF08",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "模块便于修改和增删，缺失功能不假成功",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF09",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "规则与记录使用.md；程序框架审核交付HTML及关联图形；区分主机检查、目标构建与硬件验证",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF10",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "模块/功能语义词首字母大写；常规缩写优先3–5字母，明确例外优先",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF11",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "公共头只公开必要接口，私有实现归.c；禁止头文件包含环和调用方手写跨文件extern",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF12",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "函数单一职责，新增及实质重构自有函数控制嵌套≤4层、形参≤5个",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF13",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "必要跨文件全局对象用G_，静态变量用S_；明确数据所有者、初始化和格式转换",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF14",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "宏括号完整、多语句包装安全、实参无隐藏副作用；区分const对象与编译期常量",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF15",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "求值顺序明确，实参调用和条件赋值拆分，运算分组清楚",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF16",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "注释解释意图、契约和约束，并随代码同步",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF17",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "新自有代码4空格缩进、一行一语句、控制块与续行清楚",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF18",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "按资料、分析、逐步审核、实施、两组三轮复盘、编译优化、烧录调试的流程推进",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF19",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "结构体按模块及职责分类管理，类型、对象及成员用Pascal与下划线结合；初始化、布局、指针和位域按语言及目标ABI验证",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF20",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "C/C++公共类型与位操作集中维护；默认基础整型用u32/u16/u8、s32/s16/s8",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF21",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "工程设Log，版本与提示词记录按时间顺序追加",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "EF22",
+    "document": "references/library/embedded-framework-rules.md",
+    "description": "UI结合字库、Logo及页面资源统筹Flash/RAM，输出3–4套HTML风格；选定后逐页三轮均≥92%再进入下一页",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F01",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "一个函数围绕一个明确职责",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F02",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "处理同一知识的重复代码",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F03",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "新增函数控制嵌套不超过4层",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F04",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "新增函数形参不超过5个",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F05",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "可重入性明确",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F06",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "参数检查责任统一",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F07",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "完整处理错误和异步结果",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F08",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "及时清理确认废弃的代码",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F09",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "不修改的输入优先用const",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F10",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "隔离隐藏状态和I/O副作用",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F11",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "检查非参数输入",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F12",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "除打印/日志类外不用可变参数",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F13",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "文件内函数使用static",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "F14",
+    "document": "references/library/rules/embedded-function-rules.md",
+    "description": "逻辑与文件组织一致",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H01",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "头文件只公开必要接口",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H02",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "私有定义留在.c",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H03",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "不在头文件定义变量",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H04",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "尽量不以全局变量作为接口",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H05",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "单一职责和最小依赖",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H06",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "向稳定接口依赖",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H07",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "禁止头文件循环包含",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H08",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "自有.c原则上对应同名公共.h",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H09",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "不靠私有头掩盖过大源文件",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H10",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "跨文件接口必须通过所属头文件使用",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H11",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "头文件自包含且可重复包含",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "H12",
+    "document": "references/library/rules/embedded-header-rules.md",
+    "description": "自有include放在extern \"C\"之外",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "L01",
+    "document": "references/library/rules/embedded-format-rules.md",
+    "description": "每级缩进4个空格",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "L02",
+    "document": "references/library/rules/embedded-format-rules.md",
+    "description": "逻辑块间留空行",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "L03",
+    "document": "references/library/rules/embedded-format-rules.md",
+    "description": "一行一条完整语句",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "L04",
+    "document": "references/library/rules/embedded-format-rules.md",
+    "description": "控制语句与执行体分行",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "L05",
+    "document": "references/library/rules/embedded-format-rules.md",
+    "description": "条件与循环分支成对加花括号",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "L06",
+    "document": "references/library/rules/embedded-format-rules.md",
+    "description": "长语句按逻辑换行",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "L07",
+    "document": "references/library/rules/embedded-format-rules.md",
+    "description": "相关代码相邻",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "L08",
+    "document": "references/library/rules/embedded-format-rules.md",
+    "description": "注释和语句同样保持层级",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "LG01",
+    "document": "references/library/rules/embedded-log-rules.md",
+    "description": "工程根目录设专用Log文件夹",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "LG02",
+    "document": "references/library/rules/embedded-log-rules.md",
+    "description": "版本记录包含四项固定字段",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "LG03",
+    "document": "references/library/rules/embedded-log-rules.md",
+    "description": "提示词记录包含三项固定字段",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "LG04",
+    "document": "references/library/rules/embedded-log-rules.md",
+    "description": "新记录只在文件末尾追加",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "LG05",
+    "document": "references/library/rules/embedded-log-rules.md",
+    "description": "记录用于分析后续代码修改",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "LG06",
+    "document": "references/library/rules/embedded-log-rules.md",
+    "description": "实施阶段建立并持续维护",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "M01",
+    "document": "references/library/rules/embedded-macro-rules.md",
+    "description": "表达式宏的括号完整",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "M02",
+    "document": "references/library/rules/embedded-macro-rules.md",
+    "description": "多语句宏作为单一语句使用",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "M03",
+    "document": "references/library/rules/embedded-macro-rules.md",
+    "description": "宏实参不得含可变副作用",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "M04",
+    "document": "references/library/rules/embedded-macro-rules.md",
+    "description": "有意义数值使用明确名称",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "M05",
+    "document": "references/library/rules/embedded-macro-rules.md",
+    "description": "普通操作优先函数",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "M06",
+    "document": "references/library/rules/embedded-macro-rules.md",
+    "description": "普通只读值优先有类型const",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "M07",
+    "document": "references/library/rules/embedded-macro-rules.md",
+    "description": "不隐藏改变调用者流程",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "M08",
+    "document": "references/library/rules/embedded-macro-rules.md",
+    "description": "续行和字符串化含义明确",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "N01",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "名称表达明确业务含义",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "N02",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "完整单词或已知缩写",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "N03",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "语义词首字母大写",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "N04",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "名称不使用无意义数字序号",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "N05",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "变量以名词或形容词+名词命名",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "N06",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "变量存储范围前缀明确",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "N07",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "芯片平台/驱动适配保持原体系",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "N08",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "参数和结构体相关名称采用Pascal_Underscore及指定缩写",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST01",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "结构体定义和对象声明以分号结束",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST02",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "结构体标签、typedef名、对象语义名称和成员均用Pascal与下划线结合",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST03",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "变量存储位置按声明位置、存储期及链接配置判断",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST04",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "读取前完成有效初始化",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST05",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "布局按实际ABI、类型对齐要求和编译选项核对",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST06",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "pack只在确有外部契约时局部使用并验证",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST07",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "结构体参数通常采用有明确生命周期的指针",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST08",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "同类型对象可整体赋值，语义相等逐成员比较",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST09",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "普通软件标志位优先用位域与有语义的宏表达",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST10",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "位域读改写按共享存储单元处理同步",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST11",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "通信、Flash/EEPROM和寄存器使用明确契约",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST12",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "公开布局与头文件依赖最小化",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST13",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "模块结构体按所属模块和职责分类命名",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "ST14",
+    "document": "references/library/rules/embedded-struct-rules.md",
+    "description": "按分类分别管理所有权、生命周期与公开边界",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "T01",
+    "document": "references/library/rules/embedded-type-macro-rules.md",
+    "description": "基础类型与常用位操作集中在专门公共配置头",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "T02",
+    "document": "references/library/rules/embedded-type-macro-rules.md",
+    "description": "六个默认别名映射精确宽度stdint类型",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "T03",
+    "document": "references/library/rules/embedded-type-macro-rules.md",
+    "description": "兼容别名单点定义并核对冲突",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "T04",
+    "document": "references/library/rules/embedded-type-macro-rules.md",
+    "description": "位操作使用无符号掩码、有效位号并控制求值次数",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "T05",
+    "document": "references/library/rules/embedded-type-macro-rules.md",
+    "description": "有符号视图使用对应有符号类型",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "T06",
+    "document": "references/library/rules/embedded-type-macro-rules.md",
+    "description": "位域与联合体布局视图按目标显式启用",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "T07",
+    "document": "references/library/rules/embedded-type-macro-rules.md",
+    "description": "C/C++区别验证联合体与别名规则",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "T08",
+    "document": "references/library/rules/embedded-type-macro-rules.md",
+    "description": "公共头接入需要独立编译与平台适配证据",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI01",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "先判断工程是否涉及 UI。无 UI 时，本组屏幕/驱动前提、八 Skill 核对/安装、风格 HTML、字库/Logo预算及 U1/U2/U3≥92%均不适用，在覆盖矩阵写具体理由，不阻断普通固件流程；通用芯片内存约束和 Log 仍执行。有 UI 时明确 MCU/Web/原生上位机对象，复用资料、选择和授权，只更新受影响范围。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI02",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "具体设计前取得屏幕物理尺寸、像素宽高、方向、有效显示区及显示驱动芯片完整型号/资料。未知值待提供；不能猜屏幕或驱动。Web/上位机不直接控制屏幕驱动时，登记平台和不适用理由。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI03",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "收集触摸/按键/编码器、触摸控制器、显示/触摸接口、颜色格式、当前代码/截图、图形库及版本、MCU/板卡/SDK、链接配置、实际资源和刷新约束；缺项说明影响，继续独立资料分析。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI04",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "具体审美重做前逐项检查 roughjs、shadcn、radix-colors、github-readme-stats、mermaid-diagrams、simple-icons、fontsource、markdown-badges 八项 Skill 均可用。已有不重装；缺失按适用安装流程补齐并核验，复用已有授权。Skill 可用不等于项目依赖已安装或目标 MCU 可运行。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI05",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "按下表分工组合工具；文档统计/徽章用于 README，Web 组件用于兼容 Web/审核预览，字体/图形按目标格式转换，不宣称 React/CSS/WOFF 能直接跑 MCU。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI06",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "读取现 UI 的实际代码与截图，冻结页面、数据、单位、告警、导航、交互和状态基线；区分审美修改与行为修改，不凭截图猜未展示的功能。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI07",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "默认提交4套风格，可提供3套；同一页面、内容、数据、单位、状态和关键操作保持一致，比较布局、字排、色彩和资产取舍。不得靠删功能或虚构指标美化某一套。已有有效风格选择直接复用。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI08",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "统筹文字、字库、Logo、图标、背景、页面图片和动画；实际屏幕下验证中文/符号、字号/字重、对比、颜色格式、焦点/选中/禁用/告警状态及许可，不能只设计首页或只算背景图。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI09",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "按实际输入方式设计导航、触摸热区/按键焦点、反馈、空/断连/超时/故障状态；关键动作和告警不能仅靠颜色表达。UI 不阻塞控制快路径，不以界面状态替代业务保护。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI10",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "保持 Task→APP→FML→HDL。调度、业务状态/命令、界面服务与显示/触摸硬件端口归属清楚；图形库、字体资源、刷新/并发和驱动接入按真实平台适配。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI11",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "Flash/RAM 和全部页面资源预算是设计前置硬约束，按下述清单计算；无总量、链接配置或实际资产尺寸时不标预算通过。超预算先缩字库/资源、改缓冲策略或视觉方案，再实现。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI12",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "交付本地可读的独立 UI 审核 HTML：3–4套同内容对比、目标像素区/缩放说明、页面/状态预览、资源预算、差异、来源、版本和缺项；缩略可放大、阶段可展开、窄屏/打印可读，关键材料不依赖网络。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI13",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "用户选择绑定风格、页面范围、HTML版本及输入摘要，关联 A2 架构和 A5 实施范围；驱动/引脚变化关联 A1/A3/A4。HTML 本地选择与导出只是草稿，真实用户回复才构成确认。确认过且未变的范围不重复索权。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI14",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "只落地选定风格，按页面列表逐页闭环。当前页三轮匹配及资源门槛未通过时，先处理该页，不能把未通过页面隐藏后切换下一页。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI15",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "每页 U1/U2/U3 三轮均独立比较当前 HTML 页面与实际程序页面，每轮总分均≥92/100，且关键内容/功能/告警/交互和资源硬门槛满足，才可进入下一页。没有实际界面证据不得填92%或通过；不得复制记录或跨页/跨轮平均放行。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI16",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "改动后重核受影响页面、共享资产和已完成轮次；按工程流程更新 C1/C2/C3、L1/L2/L3、目标构建及优化证据。编译成功不证明视觉匹配或屏幕刷新性能，浏览器/仿真不冒充实机。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "UI17",
+    "document": "references/library/rules/embedded-ui-rules.md",
+    "description": "选择、修正、逐轮差异、分数、资源预算/MAP/峰值、编译与实机结果写入实际审核材料和工程 Log，关联版本、输入/固件摘要及证据路径。后续修改先查相关记录；未知和未执行项如实保留。",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V01",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "一个变量只表示一个用途",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V02",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "一个结构描述一个内聚对象，模块结构体按职责分类管理",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V03",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "尽量少用跨模块全局变量",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V04",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "同一共享对象有明确写入所有者",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V05",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "不用局部名字遮蔽可见全局/静态对象",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V06",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "通信和存储显式处理格式",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V07",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "所有读取前完成有效初始化",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V08",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "初始化顺序和发布条件明确",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V09",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "数据API表达业务语义并处理同步",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "V10",
+    "document": "references/library/rules/embedded-data-rules.md",
+    "description": "减少无必要隐式/强制转换",
+    "mode": "analysis-and-evidence"
+  },
+  {
+    "id": "WF01",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "工程资料收集",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF02",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "芯片平台识别",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF03",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "规格书及工具链核对",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF04",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "旧工程分析",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF05",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "裸机分时或FreeRTOS选择",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF06",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "例程库及技能能力核对",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF07",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "原理图与引脚分析",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF08",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "HTML框架及图形",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF09",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "用户逐步审核",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF10",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "IDE工程搭建",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF11",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "逐文件C1/C2/C3",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF12",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "逻辑引脚L1/L2/L3",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF13",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "目标编译及优化",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF14",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "接线就绪后烧录",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF15",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "调试与观察",
+    "mode": "workflow-evidence"
+  },
+  {
+    "id": "WF16",
+    "document": "references/library/rules/embedded-project-workflow-rules.md",
+    "description": "交付和追溯",
+    "mode": "workflow-evidence"
+  }
+]

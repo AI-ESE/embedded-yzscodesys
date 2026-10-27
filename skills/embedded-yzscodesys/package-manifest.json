@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "skill_name": "embedded-yzscodesys",
+  "version": "1.1.0",
+  "scope": "Local skill bundle; historical references are not live validation.",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "4bd9864d40548738251fdcd8616d6c0955709a0335788b2cc0531c2332cc120e",
+      "size": 322
+    },
+    {
+      "path": "assets/distribution.json",
+      "sha256": "dce3f9deb8f03b3208c24dabb2cee9ec0438a5162a80575517471b5efb6e7437",
+      "size": 197
+    },
+    {
+      "path": "assets/headers/Pj_BitLayout.h",
+      "sha256": "02a2fd22924da9056d83f3c94a9706825e4c2847d96985dc65808e90b8eb69aa",
+      "size": 5527
+    },
+    {
+      "path": "assets/headers/Pj_MacroCfg.h",
+      "sha256": "2ad258935af7a6815c59cccea77ea57d5338d7f9c8d240352b81ac711ad81f8f",
+      "size": 7828
+    },
+    {
+      "path": "assets/project-log/提示词记录.md",
+      "sha256": "f215202ed574121c29ddde2f9da48746db4252fdca02176d2f5e8ea944097825",
+      "size": 210
+    },
+    {
+      "path": "assets/project-log/版本记录.md",
+      "sha256": "80a7ef03b8f1aec7622450e9711205d531e73f980b8fcb99352b8b84b7dba3d8",
+      "size": 235
+    },
+    {
+      "path": "assets/project-profile.json",
+      "sha256": "d0dcbd38df652ec4063e49916bcee6580fdf797a482a07b4f5030f5dbd7354f6",
+      "size": 3269
+    },
+    {
+      "path": "assets/review-shell.html",
+      "sha256": "8d3be44634515d139a4d801cae51c9deaaba7175c5e62818a5d2f5eae695c0bc",
+      "size": 14315
+    },
+    {
+      "path": "assets/rule-catalog.json",
+      "sha256": "97b42174ce36a184f5a22635a8b5564e9e00cae99f2b2acbbdc94d8901b7f3e4",
+      "size": 35817
+    },
+    {
+      "path": "references/coverage.md",
+      "sha256": "8f9e49f4cd32d6cc9c39ece46acfe9f33bc107f7b47b8fe3b14283130583f855",
+      "size": 3431
+    },
+    {
+      "path": "references/engineering-contracts.md",
+      "sha256": "84f20600d3b0797962d3506051bfbe261efe67d03942abd4e6c736673bfd656d",
+      "size": 2237
+    },
+    {
+      "path": "references/html-review.md",
+      "sha256": "33734593b82e995239d2d7fab0e40b9a4320ba520ba72befa70a0d70682a3c84",
+      "size": 7473
+    },
+    {
+      "path": "references/installation.md",
+      "sha256": "7a0c74db8ea10df44c4cbfb5a6cacb97f65d3f22e97c437f79d75240c02449d8",
+      "size": 5407
+    },
+    {
+      "path": "references/library/embedded-framework-rules.md",
+      "sha256": "ae01560e0f699b153a043a54b9049dfef8a75f3b9a773ec60de65cf3969ce1b6",
+      "size": 18742
+    },
+    {
+      "path": "references/library/INDEX.md",
+      "sha256": "758582135465af1de0fc04903eb4eb0add30a7d49d211a9508f68ab808feefb5",
+      "size": 964
+    },
+    {
+      "path": "references/library/rules/embedded-comment-rules.md",
+      "sha256": "7020995ce11bcbf3360a46c320016b81c92ef60d4f6aa0cd4d2c6c8b5b63bd7e",
+      "size": 5796
+    },
+    {
+      "path": "references/library/rules/embedded-data-rules.md",
+      "sha256": "746151e7d87d61590c8646b4f8aaf9eb7c693bc6104137f1e1c14fb2fb2391e9",
+      "size": 7912
+    },
+    {
+      "path": "references/library/rules/embedded-expression-rules.md",
+      "sha256": "888ac6f0767f7b3c59e3895729941d5d3d195e65883709047ec374d0e293a5c8",
+      "size": 3108
+    },
+    {
+      "path": "references/library/rules/embedded-format-rules.md",
+      "sha256": "51f5216e31c242c0084f63662e022e1ae0d52fc143dedd9c525783ba1602aecd",
+      "size": 4816
+    },
+    {
+      "path": "references/library/rules/embedded-function-rules.md",
+      "sha256": "77fde93166994de4f05f5346bd3a2219c57f1586e8e7d1bd6db49f0b769403e7",
+      "size": 7963
+    },
+    {
+      "path": "references/library/rules/embedded-header-rules.md",
+      "sha256": "87e1545d0a43291d0d82509f50724d2a1a8f72cf652f283514935ba2136cd940",
+      "size": 6238
+    },
+    {
+      "path": "references/library/rules/embedded-log-rules.md",
+      "sha256": "196dc0513deb15c8e35e1b3b15732d23be8564a9cce173c2095532893bc53a9d",
+      "size": 2363
+    },
+    {
+      "path": "references/library/rules/embedded-macro-rules.md",
+      "sha256": "3f578eef07b385bea2133cd4ade3c04dcbe5b95328109301960266cf0481842c",
+      "size": 4596
+    },
+    {
+      "path": "references/library/rules/embedded-naming-rules.md",
+      "sha256": "870a55fe1e4d0ddda23ef6f3ea24780131f71a84a6e20857533e9fbc0e7383c3",
+      "size": 9507
+    },
+    {
+      "path": "references/library/rules/embedded-project-workflow-rules.md",
+      "sha256": "3a2f06f6644f488a6cfbcc7ebd455115d5b1510b1935da997693efc7df7fb830",
+      "size": 23276
+    },
+    {
+      "path": "references/library/rules/embedded-struct-rules.md",
+      "sha256": "800653d1e7d3d594b7577e2956d4613077fb01e44e0ebecfa9efaf48639cfcc2",
+      "size": 8392
+    },
+    {
+      "path": "references/library/rules/embedded-type-macro-rules.md",
+      "sha256": "6697338ef0ce706327ce668d577b59baf95259181604e6f9d0cd001cc0055a5b",
+      "size": 4087
+    },
+    {
+      "path": "references/library/rules/embedded-ui-rules.md",
+      "sha256": "a0bdad3d9c7e8a21f108a11732cdb7299d817b732c4ee88da412fafb1c39c65c",
+      "size": 8985
+    },
+    {
+      "path": "references/library/templates/embedded-project-log-template.md",
+      "sha256": "2093fa4609aa361a9f4dbcb2f9aba566308848dc50883b440ab9aa654851e48d",
+      "size": 945
+    },
+    {
+      "path": "references/library/templates/embedded-project-review-tables.md",
+      "sha256": "e1b8720e419369d6a7f4a3bff5bc2b6ffa4c12bb4335e59a8112875f511a8077",
+      "size": 7225
+    },
+    {
+      "path": "references/library/templates/embedded-ui-review-template.md",
+      "sha256": "dfb1085dcbb5d94fdde5d4b9ee5c8fec529ed7275603c135e8e2e73578477277",
+      "size": 8155
+    },
+    {
+      "path": "references/macro-configuration.md",
+      "sha256": "829e59079e5771a8ebb9a739d2098d78a830c228ad9e99c4be24ac1b3d934474",
+      "size": 12431
+    },
+    {
+      "path": "references/operation.md",
+      "sha256": "a903f41002ccb39e1ae938ac77476889f61356a9bb950a5d9aee5d9acfaea347",
+      "size": 4287
+    },
+    {
+      "path": "references/profile-schema.md",
+      "sha256": "e02c45efada6e5d8afd1b112f94f938134f2b8f908d919eacb8c352ae35f92fb",
+      "size": 19592
+    },
+    {
+      "path": "references/project-log.md",
+      "sha256": "d9a0b44dc4904dddc2ed924dfae6a25fd6523e1bd6723b2d6fcb3ad18683c398",
+      "size": 2302
+    },
+    {
+      "path": "references/repository-policy.md",
+      "sha256": "835061da669860914532a7ad8b6852be1cc6925b057c791f2678cbe44b6e7657",
+      "size": 1341
+    },
+    {
+      "path": "references/ui-design.md",
+      "sha256": "70a6e38b205961f1c63ebd798ab1ceb186f32ca66486b2eabb54add656435303",
+      "size": 6365
+    },
+    {
+      "path": "scripts/audit_naming.py",
+      "sha256": "6deeab3b17f6f31d82923d2512beb530e4ed7c447218a040fc2e4cfa68b450c5",
+      "size": 9822
+    },
+    {
+      "path": "scripts/package_skill.py",
+      "sha256": "902ab7f17e7dc8d4b1d8b6f8f04c3cd57caf48b471510e67317a1920c1f1a610",
+      "size": 7592
+    },
+    {
+      "path": "scripts/project_log.py",
+      "sha256": "77f4167054d91ea39a02367051b867a976a0f1cf2bf6f6c7854ca90516be4799",
+      "size": 5183
+    },
+    {
+      "path": "scripts/project_workflow.py",
+      "sha256": "0535f3d450a58edf22a90359d0d4e9d8a401f91c54ad2fb103d5559350295f52",
+      "size": 35578
+    },
+    {
+      "path": "scripts/render_review.py",
+      "sha256": "4a5161fadc36962d7ce69e941b8818b3d489f4b4d504a1c67fad4cbd5c942063",
+      "size": 31246
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "6515ef1c3f69ffd5698b42fe648d8239797f89bf36b758ffb3d02ab9cd80ad51",
+      "size": 6884
+    },
+    {
+      "path": "tests/test_audit_naming.py",
+      "sha256": "b6fe04fee8deb95686dadbe31040c747bb5066006fc322f391934d19d2558ac9",
+      "size": 3996
+    },
+    {
+      "path": "tests/test_macro_config.py",
+      "sha256": "cf9a77ca43a4e6868951cf878017dd5ce02df98b0d52c7ec0c99a3260a500fa6",
+      "size": 11374
+    },
+    {
+      "path": "tests/test_package_skill.py",
+      "sha256": "7939270ee6a1925554d6cd0a27aa00f3f67659ee95f872a7589d0590e7428f52",
+      "size": 4900
+    },
+    {
+      "path": "tests/test_project_log.py",
+      "sha256": "f5dd2296d06fa6da6fbbab0ddf5682a66ab78d0ea89b722d6f7faf1dde21427b",
+      "size": 4160
+    },
+    {
+      "path": "tests/test_project_workflow.py",
+      "sha256": "44640259d610ae9c7e751804d00ac62be600244270a0e609115790eda4f5e54d",
+      "size": 29082
+    },
+    {
+      "path": "tests/test_render_review.py",
+      "sha256": "93367d7d556d2814851984fe4a252c393c517267455b82053be19f57b7f6dd2a",
+      "size": 15804
+    }
+  ]
+}
