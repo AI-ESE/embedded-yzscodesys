@@ -1,6 +1,6 @@
 # 嵌入式工程师：添加、调用与维护
 
-Skill标识为`embedded-yzscodesys`，中文显示名为“嵌入式工程师”，调用名称为`$embedded-yzscodesys`。分发包名为`embedded-yzscodesys-1.1.0.zip`；解压后的顶层文件夹必须为`embedded-yzscodesys`。
+Skill标识为`embedded-yzscodesys`，中文显示名为“嵌入式工程师”，调用名称为`$embedded-yzscodesys`。当前版本为V1.0.0，分发包名为`embedded-yzscodesys-1.0.0.zip`；解压后的顶层文件夹必须为`embedded-yzscodesys`。版本按[命名规则](versioning.md)：大改动增加中间位，小改动增加末位。
 
 使用前须按[仓库说明](repository-policy.md)，在真实来源仓库手动 Star 并明确确认。当前发布状态及准确地址见[发行信息](../assets/distribution.json)；仓库待发布时如实说明，不把安装完成当作已经 Star。
 

@@ -22,7 +22,7 @@ description: Use when the user requests an MCU firmware project, embedded C/C++ 
 | 搭建或重构工程 | [工程契约](references/engineering-contracts.md)及相关命名/头文件/函数/数据/宏/结构体细则；按已确认IDE和系统分支实现 |
 | 复盘与构建 | [记录与摘要](references/profile-schema.md)、[工具覆盖](references/coverage.md)；逐文件C1/C2/C3，再对全部逻辑/引脚L1/L2/L3；实际IDE编译、告警及优化分析 |
 | 烧录、调试和交付 | WF13–WF16；核对当前产物、连接及范围，采集真实写入/校验/日志/波形证据 |
-| 添加或更新Skill | [安装与使用](references/installation.md)；不因加载Skill自行改全局配置 |
+| 添加或更新Skill | [安装与使用](references/installation.md)、[版本命名](references/versioning.md)；不因加载Skill自行改全局配置 |
 | 工程追溯 | [Log维护](references/project-log.md)；工程搭建时创建Log内两份记录，每次提问和实际修改按用户字段末尾追加、空行分隔 |
 
 ## 必须保持的约定

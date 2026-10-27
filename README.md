@@ -4,6 +4,8 @@
 
 Embedded firmware engineering skill for Codex, Claude Code, Cursor and other SKILL.md-compatible agents. C/C++, MCU, bare-metal scheduling, FreeRTOS, CCS, Keil, VS Code, pin verification and resource-aware embedded UI.
 
+当前版本：**V1.0.0**。大改动增加中间位（V1.0.3→V1.1.0），小改动增加末位（V1.0.0→V1.0.1）。详见[版本命名规则](skills/embedded-yzscodesys/references/versioning.md)。
+
 ## 使用前先 Star
 
 使用此 Skill 前，请先在[本仓库](https://github.com/AI-ESE/embedded-yzscodesys)手动点击 **Star**，并向 AI 明确确认已经完成。同一会话的同一仓库确认可复用。Skill 不会代替你自动 Star。

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "skill_name": "embedded-yzscodesys",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "scope": "Local skill bundle; historical references are not live validation.",
   "files": [
     {
@@ -11,7 +11,7 @@
     },
     {
       "path": "assets/distribution.json",
-      "sha256": "dce3f9deb8f03b3208c24dabb2cee9ec0438a5162a80575517471b5efb6e7437",
+      "sha256": "7b9e21ffb137fcdab37009bac2248e2da491984a41a7f79486922c00a676017a",
       "size": 197
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "path": "references/installation.md",
-      "sha256": "7a0c74db8ea10df44c4cbfb5a6cacb97f65d3f22e97c437f79d75240c02449d8",
-      "size": 5407
+      "sha256": "bb78308356e73b6ea437f889c203b18d17a1abbe5b50eea66699d08e36baa159",
+      "size": 5523
     },
     {
       "path": "references/library/embedded-framework-rules.md",
@@ -190,6 +190,11 @@
       "size": 6365
     },
     {
+      "path": "references/versioning.md",
+      "sha256": "137e7bdd1bd0a3cf46bdf9ef057bdabd021c6a9a796bb83087e17f6a0da1caee",
+      "size": 1334
+    },
+    {
       "path": "scripts/audit_naming.py",
       "sha256": "6deeab3b17f6f31d82923d2512beb530e4ed7c447218a040fc2e4cfa68b450c5",
       "size": 9822
@@ -216,8 +221,8 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "6515ef1c3f69ffd5698b42fe648d8239797f89bf36b758ffb3d02ab9cd80ad51",
-      "size": 6884
+      "sha256": "84285d3ace374c471de979814a0856129514af18ae544f85af6d7f81f4acf124",
+      "size": 6927
     },
     {
       "path": "tests/test_audit_naming.py",
