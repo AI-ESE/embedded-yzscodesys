@@ -1,0 +1,12 @@
+.worktrees/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test-output/
+out/
+build/
+dist/
+node_modules/
+.env
+.env.*
+*.log
